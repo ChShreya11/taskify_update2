@@ -245,9 +245,9 @@ const renderDetailsCard = (sNo, task) => {
       <div class="details-box__progress">
         <span class="details-box__property">Progress:</span>
         <div class="details-box__progress-circle">
-          <span class="details-box__progress-value">${getProgressTillDate(
-            task
-          )}%</span>
+          <span class="details-box__progress-value">${Math.floor(
+      Math.random() * 101
+)}%</span>
         </div>
       </div>
 
